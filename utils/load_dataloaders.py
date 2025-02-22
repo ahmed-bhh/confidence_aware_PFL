@@ -17,7 +17,7 @@ def load_dataloaders(
     if dataset == "CIFAR10":
         train_loaders, test_loaders, client_labels = load_cifar10(
             n_clients,
-            n_labels=n_labels,
+            n_laebels=n_labels,
             batch_size=batch_size,
             path=path_to_data,
             seed=seed,
